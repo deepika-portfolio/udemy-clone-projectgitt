@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor:Over a billion reviews & contributions for Hotels attraction, ...</title>
+    <!--google style for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <div class="navbar__s1__brand">
+                <img class="navbar__logo" src="images/tripadvisor.png" alt="Tripadvisor logo">
+                <span class="navbar__s1__name">Tripadvisor</span>
+            </div>
+        </div>
+
+        <div class="navbar__s2">
+            <button class="navbar__s2__pill">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Plan with AI
+            </button>
+            <p>Discover</p>
+            <p>Review</p>
+            <div class="mylearning">
+                <p>More</p>
+                <div class="mylearning__popup">
+                    <p>Trips</p>
+                    <p>Forums</p>
+                    <p>Help</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar__s3">
+            <div class="navbar__s3__currency">
+                <i class="fa-solid fa-globe"></i>
+                <span>INR</span>
+            </div>
+            <button class="navbar__s3__signin">Sign in</button>
+        </div>
+
+        <div class="navbar__s4">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <!--hero (Where to?)-->
+    <div class="hero">
+        <h1 class="hero__title">Where to?</h1>
+
+        <!--categories / tabs-->
+        <div class="categories">
+            <p class="categories--active"><i class="fa-solid fa-magnifying-glass"></i> Search All</p>
+            <p><i class="fa-solid fa-camera"></i> Things to Do</p>
+            <p><i class="fa-solid fa-bed"></i> Hotels</p>
+            <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
+        </div>
+
+        <!--search bar-->
+        <div class="hero__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Places to go, things to do, hotels...">
+            <button class="hero__search__ask">Ask AI</button>
+            <button class="hero__search__go">Search</button>
+        </div>
+    </div>
+
+    <!--sale-image / promo banner-->
+    <div class="sale-image">
+        <div class="sale-image__bg"></div>
+        <div class="sale-image__offer">
+            <h2>Book the best with the badge</h2>
+            <p>The 2026 Travelers' Choice Best of the Best Things to Do are in, all backed by travelers.</p>
+            <button class="sale-image__offer__btn">See the winners</button>
+        </div>
+        <div class="sale-image__badge">
+            <p class="sale-image__badge__year">2026</p>
+            <p class="sale-image__badge__title">Best</p>
+            <p class="sale-image__badge__sub">Choice</p>
+        </div>
+    </div>
+
+    <!--topics (Find things to do by interest)-->
+    <div class="topics">
+        <h1 class="topics__tittle">Find things to do by interest</h1>
+        <p>Whatever you're into, we've got it</p>
+        <div class="topics__container">
+            <p><i class="fa-solid fa-mountain-sun"></i> Outdoors</p>
+            <p><i class="fa-solid fa-burger"></i> Food</p>
+            <p><i class="fa-solid fa-landmark"></i> Culture</p>
+            <p><i class="fa-solid fa-water"></i> Water</p>
+        </div>
+    </div>
+
+    <!--recomended (Must-dos in amazing places)-->
+    <div class="recomended">
+        <h1 class="recomended__title">Must-dos in amazing places</h1>
+        <p>Experiences we think you'll love</p>
+        <div class="recomended__container">
+            <div class="course-card">
+                <img src="./images/image_1.jpg" alt="Bangkok">
+                <p class="course-card__city">Bangkok</p>
+                <p>Half-Day Floating Market and Railway Market Tour</p>
+                <p class="course-card__rating">4.5 <span class="course-card__stars">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;</span> (2,387)</p>
+                <p class="course-card__price">from &#8377;3,018 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_2.jpg" alt="Panjim">
+                <p class="course-card__city">Panjim</p>
+                <p>Fontainhas Heritage Walk by Make It Happen</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (2,878)</p>
+                <p class="course-card__price">from &#8377;1,400 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_3.jpg" alt="Hanoi">
+                <p class="course-card__city">Hanoi</p>
+                <p>Ninh Binh Day Tour with Tam Coc Boat Trip &amp; Mua Cave</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (4,057)</p>
+                <p class="course-card__price">from &#8377;3,726 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_4.jpg" alt="Ho Chi Minh City">
+                <p class="course-card__city">Ho Chi Minh City</p>
+                <p>Small Group Cu Chi Tunnels and Mekong Delta Tour</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (6,568)</p>
+                <p class="course-card__price">from &#8377;4,412 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_5.jpg" alt="Dubai">
+                <p class="course-card__city">Dubai</p>
+                <p>Red Dunes ATV, Camels, Stargazing &amp; 5&#9733; BBQ Camp</p>
+                <p class="course-card__rating">5.0 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (22,562)</p>
+                <p class="course-card__price">from &#8377;8,498 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_6.jpg" alt="Phuket">
+                <p class="course-card__city">Phuket</p>
+                <p>Phi Phi Islands Adventure Day Trip with Seaview Lunch</p>
+                <p class="course-card__rating">4.7 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (1,750)</p>
+                <p class="course-card__price">from &#8377;8,449 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_7.jpg" alt="Seoul">
+                <p class="course-card__city">Seoul</p>
+                <p>Best DMZ Tour Korea from Seoul (Suspension Bridge)</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (42,099)</p>
+                <p class="course-card__price">from &#8377;4,902 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_8.jpg" alt="Melbourne">
+                <p class="course-card__city">Melbourne</p>
+                <p>Great Ocean Road Small-Group Eco Tour</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (4,563)</p>
+                <p class="course-card__price">from &#8377;11,107 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_9.jpg" alt="New Delhi">
+                <p class="course-card__city">New Delhi</p>
+                <p>Taj Mahal Tour from Delhi by Express Train</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (2,442)</p>
+                <p class="course-card__price">from &#8377;6,569 per adult</p>
+            </div>
+
+            <div class="course-card">
+                <img src="images/image_10.jpg" alt="Singapore">
+                <p class="course-card__city">Singapore</p>
+                <p>Lion City Bike Tour of Singapore</p>
+                <p class="course-card__rating">5.0 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (5,563)</p>
+                <p class="course-card__price">from &#8377;6,541 per adult</p>
+            </div>
+        </div>
+    </div>
+
+    <!--foundation-->
+    <div class="foundation">
+        <div class="foundation__content">
+            <p class="foundation__label">Tripadvisor Foundation</p>
+            <h2>Show some love to small businesses</h2>
+            <p>Donate to Kiva.org today to provide loans to local entrepreneurs and the Tripadvisor Foundation will
+                match it, up to $150,000 USD collectively.</p>
+            <button class="foundation__btn">Donate now</button>
+        </div>
+    </div>
+
+    <!--inspiration-->
+    <div class="inspiration">
+        <h1 class="inspiration__title">Inspiration to get you going</h1>
+        <div class="inspiration__container">
+            <div class="inspiration__card">
+                <img src="images/image_11.jpg" alt="Theme Parks">
+                <p>8 trip-worthy theme parks around the world</p>
+            </div>
+            <div class="inspiration__card">
+                <img src="images/image_12.jpg" alt="Midnight Sun">
+                <p>Where to chase the midnight sun this summer</p>
+            </div>
+            <div class="inspiration__card">
+                <img src="images/image_13.jpg" alt="National Parks">
+                <p>11 breathtaking national parks around the world</p>
+            </div>
+            <div class="inspiration__card">
+                <img src="images/image_14.jpg" alt="Family">
+                <p>7 places that look grown-up but are secretly perfect for kids</p>
+            </div>
+        </div>
+    </div>
+
+    <!--popular (Take a trip just for the food)-->
+    <div class="popular">
+        <h1 class="popular__title">Take a trip just for the food</h1>
+        <p class="popular__subtitle">Tours where the meal is the main attraction</p>
+        <div class="popular__Container">
+            <div class="course-card">
+                <img src="images/phuketFood.jpg" alt="Phuket Food">
+                <p class="course-card__city">Phuket</p>
+                <p>Southern Flavors Food Tour with 15+ Tastings</p>
+                <p class="course-card__rating">5.0 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (1,684)</p>
+                <p class="course-card__price">from &#8377;5,785 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/cancumFood.jpg" alt="Cancun Food">
+                <p class="course-card__city">Cancun</p>
+                <p>Authentic Downtown Food Tour: Tacos and Local Flavors</p>
+                <p class="course-card__rating">5.0 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (6)</p>
+                <p class="course-card__price">from &#8377;7,648 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/DelhiFood.jpg" alt="Delhi Food">
+                <p class="course-card__city">New Delhi</p>
+                <p>Chandni Chowk Delhi Food Tour with 15+ Tastings</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (273)</p>
+                <p class="course-card__price">from &#8377;3,824 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/sydneyFood.jpg" alt="Sydney Food">
+                <p class="course-card__city">Sydney</p>
+                <p>Food Tour with 6 Authentic Tastings by Secret Food Tours</p>
+                <p class="course-card__rating">4.8 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (262)</p>
+                <p class="course-card__price">from &#8377;11,806 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/seoulFod.jpg" alt="Seoul Food">
+                <p class="course-card__city">Seoul</p>
+                <p>Downtown Guided Food &amp; Market Tour with 8+ Tastings</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (522)</p>
+                <p class="course-card__price">from &#8377;9,609 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/mailenFood.jpg" alt="Milan Food">
+                <p class="course-card__city">Milan</p>
+                <p>Most Authentic Street Food Tour &#8211; Local &amp; Milanese</p>
+                <p class="course-card__rating">4.8 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (499)</p>
+                <p class="course-card__price">from &#8377;10,919 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/NashvilleFood.jpg" alt="Nashville Food">
+                <p class="course-card__city">Nashville</p>
+                <p>Food Tour with 5+ Tastings of Local Delicacies</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (2,279)</p>
+                <p class="course-card__price">from &#8377;9,804 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/paris_fooe.jpg" alt="Paris Food">
+                <p class="course-card__city">Paris</p>
+                <p>Le Marais Food Tour With 10+ Tastings, Cheese, Wine &amp; More</p>
+                <p class="course-card__rating">4.9 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (739)</p>
+                <p class="course-card__price">from &#8377;10,123 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/cophegaN_FOOD.jpg" alt="Copenhagen Food">
+                <p class="course-card__city">Copenhagen</p>
+                <p>Original food tour: 8 tastings, full meal &amp; VIP access</p>
+                <p class="course-card__rating">4.8 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (449)</p>
+                <p class="course-card__price">from &#8377;14,445 per adult</p>
+            </div>
+            <div class="course-card">
+                <img src="images/aires_food.jpg" alt="Buenos Aires Food">
+                <p class="course-card__city">Buenos Aires</p>
+                <p>Local Foodie Adventure with Sherpa Food Tours</p>
+                <p class="course-card__rating">5.0 <span
+                        class="course-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> (7,161)</p>
+                <p class="course-card__price">from &#8377;8,824 per adult</p>
+            </div>
+        </div>
+    </div>
+
+    <!--iconic places-->
+    <div class="iconic">
+        <h1 class="iconic__title">Iconic places you need to see</h1>
+        <div class="iconic__container">
+            <p>Rome, Italy</p>
+            <p>Paris, France</p>
+            <p>Las Vegas, NV</p>
+            <p>London, UK</p>
+            <p>Florence, Italy</p>
+            <p>New York City, NY</p>
+            <p>Barcelona, Spain</p>
+            <p>Oahu, HI</p>
+            <p>Amsterdam, Netherlands</p>
+            <p>Reykjavik, Iceland</p>
+        </div>
+    </div>
+
+    <!--wanderer-->
+    <div class="wanderer">
+        <div class="wanderer__content">
+            <p class="wanderer__label">Sponsored by Wanderlab</p>
+            <h2>Watch The Wanderer</h2>
+            <p>Tripadvisor's award-winning travel series, now streaming on Amazon Prime Video</p>
+            <button class="wanderer__btn">Learn more</button>
+        </div>
+    </div>
+
+    <!--awards-->
+    <div class="awards">
+        <h2 class="awards__title">Travellers' Choice Awards</h2>
+        <p class="awards__subtitle">Best of the Best</p>
+        <p>Among our top 1% of places, stays, eats, and experiences&#8212;decided by you.</p>
+        <button class="awards__btn">See the winners</button>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer__one">
+            <div class="footer__one__s1">
+                <h4>About Tripadvisor</h4>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust &amp; Safety</p>
+                <p>Contact us</p>
+            </div>
+
+            <div class="footer__one__s2">
+                <h4>Explore</h4>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+
+            <div class="footer__one__s3">
+                <h4>Do Business With Us</h4>
+                <p>Owners &amp; DMO/CVB</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Advertise with Us</p>
+                <p>Access our Content API</p>
+            </div>
+
+            <div class="footer__one__s4">
+                <h4>Get The App</h4>
+                <p>iPhone App</p>
+                <p>Android App</p>
+            </div>
+        </div>
+
+        <div class="footer__two">
+            <h1>Tripadvisor</h1>
+            <p>&copy; 2026 Tripadvisor LLC All rights reserved.</p>
+        </div>
+
+        <div class="footer__three">
+            <p>Terms of Use</p>
+            <p>Privacy and Cookies</p>
+            <p>How the site works</p>
+            <p>Contact us</p>
+            <p>Accessibility</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
